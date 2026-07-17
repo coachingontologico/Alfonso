@@ -1,0 +1,19 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bautismo Alfonso</title>
+<style>
+body{margin:0;background:#000;color:#eee;font-family:Georgia,serif}header{position:fixed;top:0;left:0;right:0;padding:16px;display:flex;justify-content:space-between;background:rgba(0,0,0,.5)}#menu{display:none}label{cursor:pointer}.drawer{position:fixed;right:-260px;top:0;width:240px;height:100%;background:#111;transition:.3s;padding:70px 20px}#menu:checked~.drawer{right:0}.hero{padding-top:80px;text-align:center}.ph{background:#222;border:1px dashed #777;display:flex;align-items:center;justify-content:center;color:#999}.hero .ph{height:60vh}.controls{display:flex;justify-content:center;gap:18px;margin:10px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:20px}.v{grid-row:span 2;height:420px}.h{height:205px}.reveal{opacity:0;transform:translateY(30px);transition:1s}.reveal.show{opacity:1;transform:none}a.btn,button{display:inline-block;margin:8px;padding:12px 18px;border:1px solid #c9b37a;color:#c9b37a;text-decoration:none;background:none}.wide{height:300px;margin:20px}.form{padding:20px}.form input,.form textarea{width:100%;background:#111;color:#fff;border:1px solid #444;padding:10px;margin:8px 0}
+footer{text-align:center;padding:30px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.v,.h{height:220px;grid-row:auto}}
+</style></head><body>
+<input id="menu" type="checkbox"><header><div><a href="WHATSAPP_LINK_AQUI">🟢 WhatsApp</a></div><label for="menu">☰ Menú</label></header>
+<div class="drawer"><p>Menú</p></div>
+<section class="hero"><div class="ph">FOTO PRINCIPAL</div><div class="controls"><button>&lt;</button><span>Foto 1 de 10</span><button>&gt;</button></div></section>
+<section class="grid"><div class="ph v">FOTO VERTICAL</div><div class="ph h">HORIZONTAL 1</div><div class="ph h">HORIZONTAL 2</div><div class="ph h">HORIZONTAL 3</div><div class="ph h">HORIZONTAL 4</div></section>
+<section class="reveal" style="padding:30px"><h2>Mi querido bautismo</h2><p>En este día inolvidable, Alfonso recibió uno de los regalos más importantes de su vida. Rodeado por el amor de su familia y amigos, cada abrazo, cada sonrisa y cada mirada quedaron grabados para siempre. Que este recuerdo siga iluminando el camino de quienes compartieron este momento tan especial en la Iglesia del Pilar.</p></section>
+<div class="ph wide">FOTO</div><p style="text-align:center"><a class="btn" href="PORTAFOLIO_LINK_AQUI">Portafolio de Alfonso</a></p>
+<div class="ph wide">FOTO</div><p style="text-align:center"><a class="btn" href="VIDEO_LINK_AQUI">Ir al video de Alfonso</a><br><a class="btn" href="PRESENTACION_LINK">Video de presentación</a><a class="btn" href="WHATSAPP_VIDEO_LINK">Video para WhatsApp</a><a class="btn" href="FULLHD_LINK">Video Full HD para atesorar</a></p>
+<div class="form"><input placeholder="Nombre"><textarea placeholder="Mi duda"></textarea><a class="btn" href="https://wa.me/NUMERO_AQUI">Enviar mensaje</a></div>
+<footer><p>📷 Instagram</p><p>© 2026 - Todos los derechos reservados - Alfonso</p></footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}));document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
+</script></body></html>
